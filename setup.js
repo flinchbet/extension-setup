@@ -5,7 +5,7 @@
 // @description Adds a script to twitch which allows you to bet on live streaming.
 // @copyright 2017+, Flinch Bet <admin@flinchbet.com> (https://github.com/flinchbet)
 // @author kevupton <kevin@flinchbet.com> (https://github.com/kevupton)
-// @icon http://www.gravatar.com/avatar.php?gravatar_id=6875e83aa6c563790cb2da914aaba8b3&r=PG&s=48&default=identicon
+// @icon https://raw.githubusercontent.com/flinchbet/extension-setup/master/icon.png
 // @license MIT; http://opensource.org/licenses/MIT
 // @license CC BY-NC-SA 3.0; http://creativecommons.org/licenses/by-nc-sa/3.0/
 // @homepageURL http://flinchbet.com/
