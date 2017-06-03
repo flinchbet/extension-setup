@@ -3,7 +3,7 @@
 // @namespace #flinchbet
 // @version 1
 // @description Adds a script to twitch which allows you to bet on live streaming.
-// @copyright 2017+, Flinch Bet <admin@flinchbet.com> (https://github.com/flinchbet)
+// @copyright 2017+, Flinch Bet <admin@flinchbet.com> (https://github.com/flinchbet), http://flinchbet.com
 // @author kevupton <kevin@flinchbet.com> (https://github.com/kevupton)
 // @icon https://raw.githubusercontent.com/flinchbet/extension-setup/master/icon.png
 // @license MIT; http://opensource.org/licenses/MIT
