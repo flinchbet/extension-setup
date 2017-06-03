@@ -22,6 +22,8 @@
 // @exclude https://*.twitch.tv/*/dashboard
 // @exclude http://chatdepot.twitch.tv/*
 // @exclude https://chatdepot.twitch.tv/*
+// @exclude http://player.twitch.tv/*
+// @exclude https://player.twitch.tv/*
 // @exclude http://im.twitch.tv/*
 // @exclude https://im.twitch.tv/*
 // @exclude http://platform.twitter.com/*
@@ -31,6 +33,8 @@
 var script = document.createElement('script');
 
 script.src = 'https://s3-ap-southeast-2.amazonaws.com/flinchbet/app.js';
-script.id = 'flinchbet';
+script.id = 'flinchbet-script';
 
-document.body.appendChild(script);
+if (!document.getElementById('flinchbet-script')) {
+  document.body.appendChild(script);
+}
