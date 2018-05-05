@@ -12,8 +12,8 @@
 // @contributionURL https://github.com/flinchbet/extension-setup
 // @grant none
 // @include http://*.twitch.tv/*
-// @include http://flinch.bet/*
-// @include http://*.flinch.bet/*
+// @include https://flinch.bet/*
+// @include https://*.flinch.bet/*
 // @include http://flinchbet.com/*
 // @include http://*.flinchbet.com/*
 // @include https://*.twitch.tv/*
