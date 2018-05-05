@@ -4,15 +4,18 @@
 // @version 1
 // @description Adds a script to twitch which allows you to bet on live streaming.
 // @copyright 2017+, Flinch Bet <admin@flinchbet.com> (https://github.com/flinchbet), http://flinchbet.com
-// @author kevupton <kevin@flinchbet.com> (https://github.com/kevupton)
+// @author flinchbet <dev@flinchbet.com> (https://github.com/flinchbet)
 // @icon https://raw.githubusercontent.com/flinchbet/extension-setup/master/icon.png
 // @license MIT; http://opensource.org/licenses/MIT
-// @license CC BY-NC-SA 3.0; http://creativecommons.org/licenses/by-nc-sa/3.0/
 // @homepageURL http://flinchbet.com/
 // @supportURL https://flinchbet.com/admin/support
 // @contributionURL https://github.com/flinchbet/extension-setup
 // @grant none
 // @include http://*.twitch.tv/*
+// @include http://flinch.bet/*
+// @include http://*.flinch.bet/*
+// @include http://flinchbet.com/*
+// @include http://*.flinchbet.com/*
 // @include https://*.twitch.tv/*
 // @exclude http://api.twitch.tv/*
 // @exclude https://api.twitch.tv/*
@@ -30,11 +33,13 @@
 // @exclude https://platform.twitter.com/*
 // ==/UserScript==
 
+window.FlinchExtension = {version: 1}
+
 var script = document.createElement('script');
 
-script.src = 'https://s3-ap-southeast-2.amazonaws.com/flinchbet/app.js';
+script.src = 'https://app.flinch.bet/app.js';
 script.id = 'flinchbet-script';
 
 if (!document.getElementById('flinchbet-script')) {
-  document.body.appendChild(script);
+    document.body.appendChild(script);
 }
