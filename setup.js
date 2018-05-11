@@ -35,11 +35,11 @@
 
 window.FlinchExtension = {version: 1}
 
-var script = document.createElement('script');
+var script = window.document.createElement('script');
 
 script.src = 'https://app.flinch.bet/app.js';
 script.id = 'flinchbet-script';
 
-if (!document.getElementById('flinchbet-script')) {
-    document.body.appendChild(script);
+if (!window.document.getElementById('flinchbet-script')) {
+    window.document.body.appendChild(script);
 }
