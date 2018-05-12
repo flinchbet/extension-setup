@@ -35,11 +35,14 @@
 
 window.FlinchExtension = {version: 1}
 
-var script = window.document.createElement('script');
+setTimeout(function () {
 
-script.src = 'https://app.flinch.bet/app.js';
-script.id = 'flinchbet-script';
+    var script = window.document.createElement('script');
+    script.src = 'https://app.flinch.bet/app.js';
+    script.id = 'flinchbet-script';
 
-if (!window.document.getElementById('flinchbet-script')) {
-    window.document.body.appendChild(script);
-}
+    if (!window.document.getElementById('flinchbet-script')) {
+        window.document.body.appendChild(script);
+    }
+
+});
