@@ -7,6 +7,7 @@
 // @author flinchbet <dev@flinchbet.com> (https://github.com/flinchbet)
 // @icon https://raw.githubusercontent.com/flinchbet/extension-setup/master/icon.png
 // @license MIT; http://opensource.org/licenses/MIT
+// @updateURL https://github.com/flinchbet/extension-setup/raw/master/flinch-bet.user.js
 // @homepageURL http://flinchbet.com/
 // @supportURL https://flinchbet.com/admin/support
 // @contributionURL https://github.com/flinchbet/extension-setup
