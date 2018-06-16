@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Flinch Bet
 // @namespace #flinchbet
-// @version 1
+// @version 1.0.1
 // @description Adds a script to twitch which allows you to bet on live streaming.
 // @copyright 2017+, Flinch Bet <admin@flinchbet.com> (https://github.com/flinchbet), http://flinchbet.com
 // @author flinchbet <dev@flinchbet.com> (https://github.com/flinchbet)
