@@ -32,7 +32,7 @@
 // @exclude https://platform.twitter.com/*
 // ==/UserScript==
 
-window.FlinchExtension = {version: 1}
+window.FlinchExtension = {version: '1.0.3'};
 
 setTimeout(function () {
 
