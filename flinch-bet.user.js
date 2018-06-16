@@ -14,8 +14,6 @@
 // @grant none
 // @include http://*.twitch.tv/*
 // @include https://flinch.bet/*
-// @include http://flinchbet.com/*
-// @include http://*.flinchbet.com/*
 // @include https://*.twitch.tv/*
 // @exclude http://api.twitch.tv/*
 // @exclude https://api.twitch.tv/*
