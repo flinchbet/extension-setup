@@ -15,8 +15,8 @@
 // @grant none
 // @include http://*.twitch.tv/*
 // @include https://*.twitch.tv/*
-// @include https://flinch.bet/*
-// @exclude http://api.twitch.tv/*
+// @include https://staging.flinch.bet/*
+// @exclude http://staging.api.twitch.tv/*
 // @exclude https://api.twitch.tv/*
 // @exclude http://tmi.twitch.tv/*
 // @exclude https://tmi.twitch.tv/*
@@ -37,7 +37,7 @@ window.FlinchExtension = {version: '1.0.3'};
 setTimeout(function () {
 
     var script = window.document.createElement('script');
-    script.src = 'https://app.flinch.bet/app.js';
+    script.src = 'https://staging.app.flinch.bet/app.js';
     script.id = 'flinchbet-script';
 
     if (!window.document.getElementById('flinchbet-script')) {
