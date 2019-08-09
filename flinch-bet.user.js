@@ -32,12 +32,12 @@
 // @exclude https://platform.twitter.com/*
 // ==/UserScript==
 
-window.FlinchExtension = {version: '1.0.3'};
+window.FlinchExtension = {version: '1.0.4'};
 
 setTimeout(function () {
 
     var script = window.document.createElement('script');
-    script.src = 'https://staging.app.flinch.bet/app.js';
+    script.src = 'https://app.staging.flinch.bet/app.js';
     script.id = 'flinchbet-script';
 
     if (!window.document.getElementById('flinchbet-script')) {
